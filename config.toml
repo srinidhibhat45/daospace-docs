@@ -1,0 +1,27 @@
+baseURL = 'https://daospace-docs.netlify.app/'
+canonifyURLs = true
+languageCode = 'en-us'
+title = 'DaoSpace Documentation'
+
+# Change the default theme to be use when building the site with Hugo
+theme = "relearn"
+
+# For search functionality
+[outputs]
+  home = ["HTML", "RSS", "PRINT", "JSON"]
+  section = ["HTML", "RSS", "PRINT"]
+  page = ["HTML", "RSS", "PRINT"]
+
+editURL = "https://github.com/World-Konkani-Centre/SCL-2022-SHRESHTHA-DOCS"
+
+author = "Team Shreshtha"
+
+title = "DaoSpace - Docs"
+
+description = "Official documentation for DaoSpace - the SCL Project of Team Shreshtha."
+
+showVisitedLinks = true
+
+[params]
+  # Change default color scheme with a variant one.
+  themeVariant = [ "relearn-dark", "relearn-light" ]

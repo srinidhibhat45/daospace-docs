@@ -1,0 +1,39 @@
+[module]
+  [module.hugoVersion]
+    min = "0.93.0"
+
+[outputFormats]
+  [outputFormats.PRINT]
+    name= "PRINT"
+    baseName = "index"
+    path = "_print"
+    isHTML = true
+    mediaType = 'text/html'
+    permalinkable = false
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+identifier = "ds"
+url = "https://github.com/World-Konkani-Centre/SCL-2022-SHRESHTHA-DOCS"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> DaoSpace"
+url = "#"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+url = "more/credits/"
+weight = 30
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-tags'></i> Tags"
+url = "tags/"
+weight = 40
