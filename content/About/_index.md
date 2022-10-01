@@ -20,7 +20,7 @@ DaoSpace as the name suggests is a space for DAOs* to communicate efficiently an
 
 #### Why do we need DAOs?
 Starting an organization with someone that involves funding and money requires a lot of trust in the people you're working with. But it’s hard to trust someone you’ve only ever interacted with on the internet. With DAOs you don’t need to trust anyone else in the group, just the DAO’s code, which is 100% transparent and verifiable by anyone.
-This opens up so many new opportunities for global collaboration and coordination.
+This opens up so many new opportunities for global collaboration and coordination without having to worry about security or about the funds
 
 ## Technology Stack
 The project implementation will be done using MERN (MongoDB Express React NodeJS) stack. 
