@@ -30,7 +30,7 @@ The project implementation will be done using MERN (MongoDB Express React NodeJS
   Node.js - evented I/O for the backend<br>
   Express.js - Fast, unopinionated, minimalist web framework for Node.js<br>
   MongoDB - The application data platform for NoSQL databases<br>
-  Mongoose - mongoose<br>
+  Mongoose - used to facilitate mongodb integration<br>
 
 ## File structure
 #### `client` - Holds the client application
